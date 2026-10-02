@@ -1,0 +1,207 @@
+Device utilisé : cpu
+Nombre de features : 16
+
+
+######################################
+# PARTIE A : L1 / L2 normales
+######################################
+
+======================================
+EXPÉRIENCE L1 / L2
+======================================
+L1 lambda : 0.0001
+L2 lambda : 0.001
+Epoch 01/10 | Loss = 0.8433 | Accuracy = 0.6211
+Epoch 02/10 | Loss = 0.8088 | Accuracy = 0.6460
+Epoch 03/10 | Loss = 0.7992 | Accuracy = 0.6520
+Epoch 04/10 | Loss = 0.7891 | Accuracy = 0.6556
+Epoch 05/10 | Loss = 0.7796 | Accuracy = 0.6586
+Epoch 06/10 | Loss = 0.7704 | Accuracy = 0.6623
+Epoch 07/10 | Loss = 0.7612 | Accuracy = 0.6673
+Epoch 08/10 | Loss = 0.7519 | Accuracy = 0.6714
+Epoch 09/10 | Loss = 0.7425 | Accuracy = 0.6778
+Epoch 10/10 | Loss = 0.7328 | Accuracy = 0.6844
+
+
+######################################
+# PARTIE B : L1 très forte
+######################################
+
+======================================
+EXPÉRIENCE L1 / L2
+======================================
+L1 lambda : 0.1
+L2 lambda : 0.0
+Epoch 01/10 | Loss = 6.6479 | Accuracy = 0.5018
+Epoch 02/10 | Loss = 1.6340 | Accuracy = 0.4974
+Epoch 03/10 | Loss = 1.6340 | Accuracy = 0.5053
+Epoch 04/10 | Loss = 1.6340 | Accuracy = 0.5013
+Epoch 05/10 | Loss = 1.6340 | Accuracy = 0.5004
+Epoch 06/10 | Loss = 1.6340 | Accuracy = 0.4962
+Epoch 07/10 | Loss = 1.6340 | Accuracy = 0.4996
+Epoch 08/10 | Loss = 1.6340 | Accuracy = 0.5029
+Epoch 09/10 | Loss = 1.6340 | Accuracy = 0.4965
+Epoch 10/10 | Loss = 1.6340 | Accuracy = 0.5011
+
+
+######################################
+# PARTIE C : Optimiseurs
+######################################
+
+======================================
+OPTIMISEUR : SGD
+======================================
+SGD      | Epoch 01/30 | Loss = 0.6894 | Accuracy = 0.5623
+SGD      | Epoch 02/30 | Loss = 0.6799 | Accuracy = 0.6097
+SGD      | Epoch 03/30 | Loss = 0.6721 | Accuracy = 0.6260
+SGD      | Epoch 04/30 | Loss = 0.6649 | Accuracy = 0.6322
+SGD      | Epoch 05/30 | Loss = 0.6583 | Accuracy = 0.6342
+SGD      | Epoch 06/30 | Loss = 0.6524 | Accuracy = 0.6362
+SGD      | Epoch 07/30 | Loss = 0.6472 | Accuracy = 0.6382
+SGD      | Epoch 08/30 | Loss = 0.6427 | Accuracy = 0.6408
+SGD      | Epoch 09/30 | Loss = 0.6390 | Accuracy = 0.6434
+SGD      | Epoch 10/30 | Loss = 0.6359 | Accuracy = 0.6448
+SGD      | Epoch 11/30 | Loss = 0.6333 | Accuracy = 0.6462
+SGD      | Epoch 12/30 | Loss = 0.6312 | Accuracy = 0.6475
+SGD      | Epoch 13/30 | Loss = 0.6295 | Accuracy = 0.6482
+SGD      | Epoch 14/30 | Loss = 0.6282 | Accuracy = 0.6491
+SGD      | Epoch 15/30 | Loss = 0.6270 | Accuracy = 0.6493
+SGD      | Epoch 16/30 | Loss = 0.6261 | Accuracy = 0.6505
+SGD      | Epoch 17/30 | Loss = 0.6253 | Accuracy = 0.6513
+SGD      | Epoch 18/30 | Loss = 0.6247 | Accuracy = 0.6521
+SGD      | Epoch 19/30 | Loss = 0.6241 | Accuracy = 0.6517
+SGD      | Epoch 20/30 | Loss = 0.6266 | Accuracy = 0.6522
+SGD      | Epoch 21/30 | Loss = 0.6261 | Accuracy = 0.6529
+SGD      | Epoch 22/30 | Loss = 0.6256 | Accuracy = 0.6536
+SGD      | Epoch 23/30 | Loss = 0.6252 | Accuracy = 0.6538
+SGD      | Epoch 24/30 | Loss = 0.6248 | Accuracy = 0.6542
+SGD      | Epoch 25/30 | Loss = 0.6245 | Accuracy = 0.6548
+SGD      | Epoch 26/30 | Loss = 0.6241 | Accuracy = 0.6549
+SGD      | Epoch 27/30 | Loss = 0.6238 | Accuracy = 0.6557
+SGD      | Epoch 28/30 | Loss = 0.6234 | Accuracy = 0.6558
+SGD      | Epoch 29/30 | Loss = 0.6231 | Accuracy = 0.6564
+SGD      | Epoch 30/30 | Loss = 0.6228 | Accuracy = 0.6570
+SGD - Validation loss : 0.6096
+
+======================================
+OPTIMISEUR : Momentum
+======================================
+Momentum | Epoch 01/30 | Loss = 0.6667 | Accuracy = 0.6120
+Momentum | Epoch 02/30 | Loss = 0.6346 | Accuracy = 0.6449
+Momentum | Epoch 03/30 | Loss = 0.6266 | Accuracy = 0.6500
+Momentum | Epoch 04/30 | Loss = 0.6265 | Accuracy = 0.6539
+Momentum | Epoch 05/30 | Loss = 0.6236 | Accuracy = 0.6568
+Momentum | Epoch 06/30 | Loss = 0.6206 | Accuracy = 0.6604
+Momentum | Epoch 07/30 | Loss = 0.6173 | Accuracy = 0.6641
+Momentum | Epoch 08/30 | Loss = 0.6135 | Accuracy = 0.6687
+Momentum | Epoch 09/30 | Loss = 0.6091 | Accuracy = 0.6737
+Momentum | Epoch 10/30 | Loss = 0.6036 | Accuracy = 0.6798
+Momentum | Epoch 11/30 | Loss = 0.5971 | Accuracy = 0.6887
+Momentum | Epoch 12/30 | Loss = 0.5901 | Accuracy = 0.6969
+Momentum | Epoch 13/30 | Loss = 0.5832 | Accuracy = 0.7063
+Momentum | Epoch 14/30 | Loss = 0.5802 | Accuracy = 0.7128
+Momentum | Epoch 15/30 | Loss = 0.5753 | Accuracy = 0.7195
+Momentum | Epoch 16/30 | Loss = 0.5717 | Accuracy = 0.7233
+Momentum | Epoch 17/30 | Loss = 0.5694 | Accuracy = 0.7249
+Momentum | Epoch 18/30 | Loss = 0.5691 | Accuracy = 0.7269
+Momentum | Epoch 19/30 | Loss = 0.5754 | Accuracy = 0.7292
+Momentum | Epoch 20/30 | Loss = 0.5773 | Accuracy = 0.7293
+Momentum | Epoch 21/30 | Loss = 0.5762 | Accuracy = 0.7310
+Momentum | Epoch 22/30 | Loss = 0.5770 | Accuracy = 0.7300
+Momentum | Epoch 23/30 | Loss = 0.5762 | Accuracy = 0.7301
+Momentum | Epoch 24/30 | Loss = 0.5753 | Accuracy = 0.7320
+Momentum | Epoch 25/30 | Loss = 0.5749 | Accuracy = 0.7329
+Momentum | Epoch 26/30 | Loss = 0.5744 | Accuracy = 0.7313
+Momentum | Epoch 27/30 | Loss = 0.5739 | Accuracy = 0.7322
+Momentum | Epoch 28/30 | Loss = 0.5735 | Accuracy = 0.7335
+Momentum | Epoch 29/30 | Loss = 0.5730 | Accuracy = 0.7331
+Momentum | Epoch 30/30 | Loss = 0.5728 | Accuracy = 0.7332
+Momentum - Validation loss : 0.5475
+
+======================================
+OPTIMISEUR : RMSprop
+======================================
+RMSprop  | Epoch 01/30 | Loss = 0.5963 | Accuracy = 0.7014
+RMSprop  | Epoch 02/30 | Loss = 0.5781 | Accuracy = 0.7281
+RMSprop  | Epoch 03/30 | Loss = 0.5737 | Accuracy = 0.7306
+RMSprop  | Epoch 04/30 | Loss = 0.5707 | Accuracy = 0.7334
+RMSprop  | Epoch 05/30 | Loss = 0.5668 | Accuracy = 0.7338
+RMSprop  | Epoch 06/30 | Loss = 0.5556 | Accuracy = 0.7342
+RMSprop  | Epoch 07/30 | Loss = 0.5473 | Accuracy = 0.7344
+RMSprop  | Epoch 08/30 | Loss = 0.5475 | Accuracy = 0.7349
+RMSprop  | Epoch 09/30 | Loss = 0.5472 | Accuracy = 0.7362
+RMSprop  | Epoch 10/30 | Loss = 0.5461 | Accuracy = 0.7352
+RMSprop  | Epoch 11/30 | Loss = 0.5430 | Accuracy = 0.7351
+RMSprop  | Epoch 12/30 | Loss = 0.5421 | Accuracy = 0.7361
+RMSprop  | Epoch 13/30 | Loss = 0.5416 | Accuracy = 0.7357
+RMSprop  | Epoch 14/30 | Loss = 0.5426 | Accuracy = 0.7361
+RMSprop  | Epoch 15/30 | Loss = 0.5412 | Accuracy = 0.7365
+RMSprop  | Epoch 16/30 | Loss = 0.5419 | Accuracy = 0.7375
+RMSprop  | Epoch 17/30 | Loss = 0.5426 | Accuracy = 0.7359
+RMSprop  | Epoch 18/30 | Loss = 0.5391 | Accuracy = 0.7376
+RMSprop  | Epoch 19/30 | Loss = 0.5394 | Accuracy = 0.7385
+RMSprop  | Epoch 20/30 | Loss = 0.5400 | Accuracy = 0.7370
+RMSprop  | Epoch 21/30 | Loss = 0.5399 | Accuracy = 0.7382
+RMSprop  | Epoch 22/30 | Loss = 0.5396 | Accuracy = 0.7381
+RMSprop  | Epoch 23/30 | Loss = 0.5389 | Accuracy = 0.7392
+RMSprop  | Epoch 24/30 | Loss = 0.5385 | Accuracy = 0.7389
+RMSprop  | Epoch 25/30 | Loss = 0.5383 | Accuracy = 0.7391
+RMSprop  | Epoch 26/30 | Loss = 0.5367 | Accuracy = 0.7395
+RMSprop  | Epoch 27/30 | Loss = 0.5360 | Accuracy = 0.7397
+RMSprop  | Epoch 28/30 | Loss = 0.5345 | Accuracy = 0.7394
+RMSprop  | Epoch 29/30 | Loss = 0.5360 | Accuracy = 0.7389
+RMSprop  | Epoch 30/30 | Loss = 0.5349 | Accuracy = 0.7403
+RMSprop - Validation loss : 0.5419
+
+======================================
+OPTIMISEUR : Adam
+======================================
+Adam     | Epoch 01/30 | Loss = 0.5942 | Accuracy = 0.6908
+Adam     | Epoch 02/30 | Loss = 0.5772 | Accuracy = 0.7291
+Adam     | Epoch 03/30 | Loss = 0.5729 | Accuracy = 0.7312
+Adam     | Epoch 04/30 | Loss = 0.5664 | Accuracy = 0.7320
+Adam     | Epoch 05/30 | Loss = 0.5589 | Accuracy = 0.7328
+Adam     | Epoch 06/30 | Loss = 0.5476 | Accuracy = 0.7350
+Adam     | Epoch 07/30 | Loss = 0.5553 | Accuracy = 0.7347
+Adam     | Epoch 08/30 | Loss = 0.5519 | Accuracy = 0.7341
+Adam     | Epoch 09/30 | Loss = 0.5512 | Accuracy = 0.7354
+Adam     | Epoch 10/30 | Loss = 0.5467 | Accuracy = 0.7363
+Adam     | Epoch 11/30 | Loss = 0.5482 | Accuracy = 0.7368
+Adam     | Epoch 12/30 | Loss = 0.5424 | Accuracy = 0.7373
+Adam     | Epoch 13/30 | Loss = 0.5432 | Accuracy = 0.7370
+Adam     | Epoch 14/30 | Loss = 0.5424 | Accuracy = 0.7364
+Adam     | Epoch 15/30 | Loss = 0.5429 | Accuracy = 0.7378
+Adam     | Epoch 16/30 | Loss = 0.5474 | Accuracy = 0.7376
+Adam     | Epoch 17/30 | Loss = 0.5433 | Accuracy = 0.7373
+Adam     | Epoch 18/30 | Loss = 0.5400 | Accuracy = 0.7387
+Adam     | Epoch 19/30 | Loss = 0.5404 | Accuracy = 0.7392
+Adam     | Epoch 20/30 | Loss = 0.5389 | Accuracy = 0.7381
+Adam     | Epoch 21/30 | Loss = 0.5411 | Accuracy = 0.7387
+Adam     | Epoch 22/30 | Loss = 0.5423 | Accuracy = 0.7385
+Adam     | Epoch 23/30 | Loss = 0.5367 | Accuracy = 0.7383
+Adam     | Epoch 24/30 | Loss = 0.5385 | Accuracy = 0.7391
+Adam     | Epoch 25/30 | Loss = 0.5422 | Accuracy = 0.7387
+Adam     | Epoch 26/30 | Loss = 0.5398 | Accuracy = 0.7397
+Adam     | Epoch 27/30 | Loss = 0.5370 | Accuracy = 0.7401
+Adam     | Epoch 28/30 | Loss = 0.5401 | Accuracy = 0.7392
+Adam     | Epoch 29/30 | Loss = 0.5394 | Accuracy = 0.7398
+Adam     | Epoch 30/30 | Loss = 0.5379 | Accuracy = 0.7402
+Adam - Validation loss : 0.5428
+
+======================================
+VALIDATION LOSSES
+======================================
+SGD      : 0.6096
+Momentum : 0.5475
+RMSprop  : 0.5419
+Adam     : 0.5428
+
+Meilleur modèle selon la validation loss : RMSprop
+
+======================================
+RÉSULTATS SUR LE TEST SET
+======================================
+Precision : 0.7658
+Recall    : 0.6790
+F1-score  : 0.7198
+AUC       : 0.8017
