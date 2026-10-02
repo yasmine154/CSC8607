@@ -242,36 +242,15 @@ $$
 
 Donc :
 
-$$
-\frac{\partial f}{\partial x}
-=
-\frac{\partial f}{\partial q}
-\frac{\partial q}{\partial x}
-=
-1 \times \frac{1}{4}
-=
-\boxed{0.25}
-$$
+$$\frac{\partial f}{\partial x} = \frac{\partial f}{\partial q}\frac{\partial q}{\partial x} = 1 \times \frac{1}{4} = \boxed{0.25}$$
 
 Pour `y` :
 
-$$
-\frac{\partial q}{\partial y}
-=
--\frac{x}{y^2}
-$$
+$$\frac{\partial q}{\partial y} = -\frac{x}{y^2}$$
 
 Donc :
 
-$$
-\frac{\partial f}{\partial y}
-=
-1 \times \left(-\frac{2}{4^2}\right)
-=
--\frac{2}{16}
-=
-\boxed{-0.125}
-$$
+$$\frac{\partial f}{\partial y} = 1 \times \left(-\frac{2}{4^2}\right) = -\frac{2}{16} = \boxed{-0.125}$$
 
 Enfin :
 
