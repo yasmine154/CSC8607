@@ -248,12 +248,12 @@ $$
 \frac{\partial f}{\partial q}
 \frac{\partial q}{\partial x}
 =
-1\times\frac{1}{4}
+1 \times \frac{1}{4}
 =
 \boxed{0.25}
 $$
 
-Pour $y$ :
+Pour `y` :
 
 $$
 \frac{\partial q}{\partial y}
@@ -266,7 +266,7 @@ Donc :
 $$
 \frac{\partial f}{\partial y}
 =
-1\times\left(-\frac{2}{4^2}\right)
+1 \times \left(-\frac{2}{4^2}\right)
 =
 -\frac{2}{16}
 =
