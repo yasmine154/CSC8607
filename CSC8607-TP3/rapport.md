@@ -244,15 +244,15 @@ Le décorateur `@torch.no_grad()` a un rôle distinct : il désactive le suivi d
 ImageNet comporte $K=1000$ classes. Si un classifieur prédit une classe uniformément au hasard, indépendamment de la vraie étiquette, la probabilité d'une prédiction correcte vaut :
 
 $$
-\operatorname{Accuracy}_{\mathrm{hasard}}=\frac{1}{1000}=0{,}001=0{,}1\,\%.
+\mathrm{Accuracy}_{\mathrm{hasard}}=\frac{1}{1000}=0{,}001=0{,}1\ \%.
 $$
 
 Si le modèle attribue une probabilité égale de $1/1000$ à toutes les classes, sa perte CrossEntropy vaut :
 
 $$
-\operatorname{CrossEntropyLoss}_{\mathrm{uniforme}}
+\mathrm{CrossEntropyLoss}_{\mathrm{uniforme}}
 =-\log\left(\frac{1}{1000}\right)
-=\ln(1000)\approx6{,}9078.
+=\ln(1000)\approx 6{,}9078.
 $$
 
 Ces valeurs constituent des **références théoriques**, et non une prédiction exacte des résultats du réseau initialisé : les logits initiaux ne sont pas nécessairement uniformes.
