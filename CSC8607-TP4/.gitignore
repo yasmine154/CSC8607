@@ -1,0 +1,18 @@
+# Checkpoints PyTorch
+*.pth
+
+# TensorBoard
+runs_rnn/
+runs/
+
+# Slurm
+logs/
+*.out
+*.err
+
+# Python
+__pycache__/
+*.pyc
+
+# Environnements
+.venv/
