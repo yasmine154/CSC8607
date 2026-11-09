@@ -1,0 +1,75 @@
+
+===== Epoch 1 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : little girl in in in in the girl in in the in in the grass in in in in
+Autoregressive : little girl in blue shirt is holding her in the grass in the grass in the grass in the
+
+===== Epoch 2 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : young girl in her head in the girl in in the tree in the woods in trees trees trees
+Autoregressive : young girl in pink shirt is standing in the woods in the woods in the woods in the woods
+
+===== Epoch 3 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in her little on her girl in on the fence while the grass with girl girl girl
+Autoregressive : two little girl in the girl in the girl in the girl in the girl in the girl in
+
+===== Epoch 4 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : young girl with her arms while her girl in on the tree in the woods with trees trees the
+Autoregressive : young girl with brown hair is standing in the woods with trees in the woods in the woods with
+
+===== Epoch 5 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : little girl with fallen arms in her girl in in the tree in wooded woods with trees trees her
+Autoregressive : little girl with long brown hair wearing black pants black pants is standing in wooded area with trees in
+
+===== Epoch 6 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen arms out her girl in on the tree in the woods with trees trees trees
+Autoregressive : two young girls are sitting on the woods with trees in the woods in the background trees in the
+
+===== Epoch 7 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen arms out her girl in on the fence in the woods with trees trees trees
+Autoregressive : two young girls are sitting on the grass with trees in the woods in the background trees in the
+
+===== Epoch 8 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen arms out her girl in on the tree in wooded woods with trees trees trees
+Autoregressive : two young children are sitting on the forest while two children are in the woods in the woods with
+
+===== Epoch 9 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl with fallen tongue out her girl in on the tree in the woods with trees in trees
+Autoregressive : two young girls are sitting on the forest with trees in the woods with trees in the background trees
+
+===== Epoch 10 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen tongue out her girl in on the fence in wooded woods with trees trees trees
+Autoregressive : two young girls are sitting on the forest with trees in the woods with trees in the background trees
+
+===== Epoch 11 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen tongue out her girl in on the fence in wooded woods with trees trees trees
+Autoregressive : two young girls are sitting on the forest with trees in the woods with trees in the background trees
+
+===== Epoch 12 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen tongue out her girl in on the tree in wooded woods with trees trees trees
+Autoregressive : two young girls are sitting on the forest with trees in the woods with trees in the background trees
+
+===== Epoch 13 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen tongue out her girl in on the tree in wooded woods with trees two trees
+Autoregressive : two young girls are sitting on the forest while two other children are in the woods in the woods
+
+===== Epoch 14 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen tongue out her girl in on the tree in wooded woods with trees two leaves
+Autoregressive : two young girls are sitting on the forest while two children are in the woods in the woods with
+
+===== Epoch 15 =====
+Target : A little girl has her arms around a little boy standing on a wooden bridge in the woods .
+Teacher forcing : two girl in fallen tongue out her girl in on the tree in wooded woods with trees two trees
+Autoregressive : two young girls are sitting on the forest while two children are in the woods in the woods with
